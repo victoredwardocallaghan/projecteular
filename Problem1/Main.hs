@@ -12,6 +12,7 @@ module Main where
 
 main :: IO ()
 main = print (sumup 1000)
+-- answer: 233168
 
 sumup :: Int -> Int
 sumup n = sum [x | x <- [1..(n-1)], hasThree x || hasFive x]
