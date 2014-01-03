@@ -7,4 +7,5 @@ Status:
 ===========
  * Problem 1 - done.
  * Problem 2 - done.
- * Problem 3 - in-progress.
+ * Problem 3 - done.
+ * Problem 4 - in-progress.
