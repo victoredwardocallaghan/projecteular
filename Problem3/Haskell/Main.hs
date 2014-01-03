@@ -35,7 +35,7 @@ factors x = factor x primes
         | otherwise     = factor n ps
 
 --
--- Find largest element
+-- Find largest prime element
 largestPrime :: Natural -> Natural
 largestPrime x = maximum (factors x)
 
