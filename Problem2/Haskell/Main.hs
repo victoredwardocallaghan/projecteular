@@ -18,7 +18,7 @@ import Data.Natural
 
 --
 -- Upper bound of "four million"
-upperBound :: Int
+upperBound :: Natural
 upperBound = 4 * 10^(6 :: Int)
 
 --
@@ -33,8 +33,8 @@ evenList = filter even
 
 --
 -- Sum up to some given bound n
-sumup :: Int -> Natural
-sumup n = sum (evenList (take n fibs))
+sumup :: Natural -> Natural
+sumup n = sum (evenList (takeWhile (<= n) fibs))
 
 --
 -- Calculate answer..
