@@ -40,4 +40,4 @@ sumup n = sum (evenList (takeWhile (<= n) fibs))
 -- Calculate answer..
 main :: IO ()
 main = print (sumup upperBound)
--- answer: ???
+-- answer: 4613732
